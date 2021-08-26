@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex DevInHouse</title>
+    <style>
+        h1, h2 {
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .fundopreto, .fundobranco {
+            color: white;
+            background-color: black;
+            height: auto;
+            width: 300px;
+            border: 10px solid lightgreen;
+            padding: 10px;
+            margin: 20px auto;
+        }
+
+        .fundobranco {
+            color: black;
+            background-color: white;
+        }
+        
+        .floresta {
+            height: 100px;
+            background-color: rgb(3, 102, 79);
+            padding: 5px;
+            margin: auto;
+        }
+
+        .verdeTrevo {
+            height: 100px;
+            background-color: #19563e;
+        }
+
+        .esmeraldaIntensa {
+            height: 100px;
+            background-color: rgb(31, 86, 76);
+        }
+
+        tr {
+            background-color: grey;
+        }
+
+        table {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Catálogo de Cores</h1>
+    </header>
+    <main>
+        <article class="fundopreto">
+            <h2>Testes com o fundo PRETO</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome da cor</th>
+                        <th>Exemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="floresta">
+                        <td>Floresta Amazônica</td>
+                        <td>RGB: 3, 102, 79</td>
+                    </tr>
+                    <tr class="verdeTrevo">
+                        <td>Verde Trevo</td>
+                        <td>hex: #19563e</td>
+                    </tr>
+                    <tr class="esmeraldaIntensa">
+                        <td>Esmeralda Intensa</td>
+                        <td>RGB: 31, 86, 76</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article  class="fundobranco">
+            <h2>Testes com o fundo BRANCO</h2>
+                <ul>
+                    <li>
+                        Floresta Amazônica:
+                        <li class="floresta"></li>
+                    </li>
+                    <li>
+                        Verde Trevo:</li> 
+                        <li class="verdeTrevo"></li>
+                    <li>
+                        Esmeralda Intensa:
+                        <li class="esmeraldaIntensa"></li>
+                    </li> 
+                </ul>
+        </article>
+    </main>
+</body>
+
+</html>
